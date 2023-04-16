@@ -1,0 +1,35 @@
+/* CSS for menu items */
+#menu {
+  text-align: center;
+}
+
+#menu a {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+  background-color: rgb(194, 199, 237);
+  color: white;
+  position: relative;
+}
+
+/* CSS for submenus */
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  padding: 10px;
+  background-color: rgb(227, 235, 238);
+  border: 1px solid black;
+  width: 200px;
+}
+
+#menu a:hover .submenu {
+  display: block;
+}
+.btn {
+  text-align: center;
+  color: white;
+  background-color: blue;
+}
